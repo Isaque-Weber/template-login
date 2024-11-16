@@ -1,0 +1,42 @@
+# Dependências do Node.js
+node_modules/
+
+# Builds gerados
+build/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema operacional e IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Arquivos de teste ou de cache
+coverage/
+.cache/
+
+# Arquivos de ambiente e chaves
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Relatórios
+*.log
+
+# Arquivos do serviço de linting
+eslintcache/
+
+# Arquivos de configuração local do React
+*.pem
+*.key
+
+# Pastas de deploy
+firebase-debug.log
+.firebaserc
